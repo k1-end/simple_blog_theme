@@ -1,0 +1,628 @@
+/*
+	Theme Name: HTML5 Blank
+	Theme URI: http://html5blank.com
+	Description: HTML5 Blank WordPress Theme
+	Version: 1.4.3
+	Author: Todd Motto (@toddmotto)
+	Author URI: http://toddmotto.com
+	Tags: Blank, HTML5, CSS3
+
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+/*------------------------------------*\
+    MAIN
+\*------------------------------------*/
+
+/* global box-sizing */
+*,
+*:after,
+*:before {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+/* html element 62.5% font-size for REM use */
+html {
+	/*font-size:62.5%;*/
+}
+body {
+	font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color:#444;
+}
+/* clear */
+.clear:before,
+.clear:after {
+    content:' ';
+    display:table;
+}
+
+.clear:after {
+    clear:both;
+}
+.clear {
+    *zoom:1;
+}
+img {
+	max-width:100%;
+	vertical-align:bottom;
+}
+a {
+	color:inherit;
+	text-decoration:none;
+}
+a:hover {
+	color:#444;
+}
+a:focus {
+	outline:0;
+}
+a:hover,
+a:active {
+	outline:0;
+}
+input:focus {
+	outline:0;
+	border:1px solid #04A4CC;
+}
+
+/*------------------------------------*\
+    STRUCTURE
+\*------------------------------------*/
+
+/* wrapper */
+.wrapper {
+    max-width:1280px;
+    width:95%;
+    margin:0 auto;
+    position:relative;
+    background-color: #be95c4;
+}
+
+
+/* header */
+.header {
+    background-color: #231942;
+    margin-bottom: 20px;
+    
+}
+
+/* logo */
+.logo {
+    margin: 4%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.title-in-head{
+    color: #be95c4;
+    display: inline-block;
+    margin: 4%;
+    font-size: 4rem;
+    margin-left: 0;
+    
+}
+
+/* sidebar */
+.sidebar {
+    float: right;
+    background-color: #231942;
+    width: 15%;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.nav ul{
+    padding-inline-start: 0;
+}
+
+.menu-item{
+    list-style-type: none;
+    background-color: #5e548e;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.menu-item a{
+    color: #231942;
+    font-size: 2em;
+    text-align: center;
+    
+}
+
+
+.menu-item:hover ,
+.menu-item:focus{
+    background: #be95c4;
+}
+
+/* search*/
+input[type="search"]{
+    width: 86.686193583%;
+    border:0;
+    padding: 3.3284516%;
+    height: 3em;
+    margin: 3.3284516%;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+
+.search .search-submit{
+    display: none;
+}
+
+/*main*/
+main{
+    padding: 10px;
+}
+
+/*posts*/
+.home .post,
+.search .post,
+.category .post{
+    /*display: inline-block;*/
+    width: 300px;
+    /*width: 31.25%;
+    max-height: 400px;
+    height: auto;
+    overflow: hidden;*/
+    text-align: center;
+    vertical-align: top;
+    
+    margin-bottom: 20px;
+    background-color: #9f86c0;
+    margin-right: 10px;
+}
+
+.home .post a img,
+.search .post a img,
+.category .post a img{
+    width: 100%;
+}
+
+.home .post > div,
+.search .post > div,
+.category .post > div{
+    text-align: left;
+    padding: 10px;
+    font-size: 2em;
+}
+
+.post_title{
+    font-style: italic;
+    font-weight: 900;
+}
+
+.continue_read{
+    font-size: 0.75em;
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.home .post > span,
+.search .post > span,
+.category .post > span{
+    display: block;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 1.25em;
+}
+
+.post-edit-link{
+    font-size: 1.25em;
+    margin: 20px;
+    display: block;
+}
+
+/* pagination*/
+.pagination{
+    text-align: center;
+}
+
+.pagination * {
+  color: black;
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd; /* Gray */
+  margin-bottom: 20px;
+  font-size: 22px;
+  
+}
+.pagination span {
+  background-color: #231942;
+  color: white;
+}
+
+/*Masonry Index*/
+
+#masonry-index{
+    width: 90%;
+}
+
+#masonry-index .post{
+    width: 30%;
+    
+}
+
+/* footer */
+.footer {
+    background-color: #231942;
+    clear: both;
+    padding: 10px;
+    color: #be95c4;
+    font-size: 2em;
+}
+
+.footer > *{
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+    
+}
+
+.footer-widget ul{
+    list-style: none;
+    padding-inline-start: 0;
+    
+}
+
+.footer-widget li{
+    border-bottom: 1px solid #be95c4;
+}
+
+.footer-widget > *{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.copyright{
+    display: block;
+}
+
+/*------------------------------------*\
+    SINGLE POST
+\*------------------------------------*/
+
+.single-post .post,
+article.page {
+    padding: 20px;
+    font-size: 2em;
+    width: 80%;
+    margin-left: 2%;
+    border: 1px solid #5e548e;
+    background-color: #e0b1cb;
+    border-radius: 10px;
+}
+
+.single-post .attachment-post-thumbnail {
+    width: 100%;
+    box-shadow: 2px 2px 10px 3px #5e548e;
+}
+.single-post p img{
+    width: 80%;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+}
+.tags{
+    border-bottom: 1px #5e548e dashed;
+    border-top: 1px #5e548e dashed;
+    padding: 10px;
+    clear: both;
+    margin-top: 1em;
+}
+.tags:before{
+    margin-top: 1em;
+}
+
+.tags ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.tags ul li{
+    display: inline-block;
+    margin-left:10px;
+}
+
+.tags > p{
+    float: left;
+    font-style: italic;
+}
+
+blockquote{
+    font-style: italic;
+    font-family: fantasy; 
+}
+blockquote:first-letter{
+    font-size: 2em;
+    float: left;
+    margin-top: -10px;
+}
+
+.comment-form label,
+.comment-form input{
+    display: block;
+}
+
+
+
+/*------------------------------------*\
+    PAGES
+\*------------------------------------*/
+
+
+
+
+
+/*------------------------------------*\
+    IMAGES
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+	TYPOGRAPHY
+\*------------------------------------*/
+
+@font-face {
+	font-family:'Font-Name';
+	src:url('fonts/font-name.eot');
+	src:url('fonts/font-name.eot?#iefix') format('embedded-opentype'),
+		url('fonts/font-name.woff') format('woff'),
+		url('fonts/font-name.ttf') format('truetype'),
+		url('fonts/font-name.svg#font-name') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+
+@media only screen and (min-width:320px) {
+
+}
+@media only screen and (min-width:480px) {
+
+}
+@media only screen and (max-width:768px) {
+    .wrapper{
+        margin: 0;
+    }
+    
+    .sidebar{
+        float: left;
+        width: 100%;
+        
+    }
+    .sidebar li{
+        float: left;
+    }
+    
+    .nav ul{
+        margin-left: 10px;
+    }
+    
+    .nav li {
+        margin-right: 1px;
+    }
+    
+    .search{
+        clear:both;
+    }
+    
+    input[type="search"]{
+        width: auto;
+        height: 1em;
+    }
+    main{
+        clear:both;
+    }
+    
+    .flexslider{
+        margin-bottom: 0;
+    }
+    
+    .home .post,
+    .search .post{
+        display: inline-block;
+        width: 47%;
+        margin-bottom: 20px;
+        margin-right: 5%;
+    }
+    .home .post:nth-child(2n+1),
+    .search .post:nth-child(2n+1){
+        margin-right: 0;
+    }
+    
+    .single-post .post,
+    article.page{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    #masonry-index{
+    width: 100%;
+    }
+
+    #masonry-index .post{
+        width: 100%;
+
+    }
+    
+    .comments textarea,
+    .comments input{
+        max-width: 90%;
+    }
+}
+@media only screen and (min-width:1024px) {
+
+}
+@media only screen and (min-width:1140px) {
+
+}
+@media only screen and (min-width:1280px) {
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+	   only screen and (min-resolution:144dpi) {
+
+}
+
+/*------------------------------------*\
+    MISC
+\*------------------------------------*/
+
+::selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+::-webkit-selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+::-moz-selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+
+/*------------------------------------*\
+    WORDPRESS CORE
+\*------------------------------------*/
+
+.alignnone {
+	margin:5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+	display:block;
+	margin:5px auto 5px auto;
+}
+.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+a img.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+a img.alignnone {
+	margin:5px 20px 20px 0;
+}
+a img.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+a img.aligncenter {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.wp-caption {
+	background:#FFF;
+	border:1px solid #F0F0F0;
+	max-width:96%;
+	padding:5px 3px 10px;
+	text-align:center;
+}
+.wp-caption.alignnone {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignright {
+	margin:5px 0 20px 20px;
+}
+.wp-caption img {
+	border:0 none;
+	height:auto;
+	margin:0;
+	max-width:98.5%;
+	padding:0;
+	width:auto;
+}
+.wp-caption .wp-caption-text,
+.gallery-caption {
+	font-size:11px;
+	line-height:17px;
+	margin:0;
+	padding:0 4px 5px;
+}
+.sticky {
+
+}
+.bypostauthor {
+
+}
+
+/*------------------------------------*\
+    PRINT
+\*------------------------------------*/
+
+@media print {
+	* {
+		background:transparent !important;
+		color:#000 !important;
+		box-shadow:none !important;
+		text-shadow:none !important;
+	}
+	a,
+	a:visited {
+		text-decoration:underline;
+	}
+	a[href]:after {
+		content:" (" attr(href) ")";
+	}
+	abbr[title]:after {
+		content:" (" attr(title) ")";
+	}
+	.ir a:after,
+	a[href^="javascript:"]:after,
+	a[href^="#"]:after {
+		content:"";
+	}
+	pre,blockquote {
+		border:1px solid #999;
+		page-break-inside:avoid;
+	}
+	thead {
+		display:table-header-group;
+	}
+	tr,img {
+		page-break-inside:avoid;
+	}
+	img {
+		max-width:100% !important;
+	}
+	@page {
+		margin:0.5cm;
+	}
+	p,
+	h2,
+	h3 {
+		orphans:3;
+		widows:3;
+	}
+	h2,
+	h3 {
+		page-break-after:avoid;
+	}
+}

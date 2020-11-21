@@ -1,0 +1,274 @@
+.EEWW..SSSSS.WWWW.W..W.WWSWWW 29 / 29 (100%)
+
+
+
+FILE: ...olgTheme/wordpress-5.5.1/wordpress/wp-content/themes/html5blank-stable/functions.php
+------------------------------------------------------------------------------------------
+FOUND 3 ERRORS AND 9 WARNINGS AFFECTING 7 LINES
+------------------------------------------------------------------------------------------
+ 319 | ERROR   | Overriding WordPress globals is prohibited. Found assignment to
+     |         | $GLOBALS['comment']
+ 331 | WARNING | All output should be run through an escaping function (see the Security
+     |         | sections in the WordPress Developer Handbooks), found '$tag'.
+ 337 | WARNING | All output should be run through an escaping function (see the Security
+     |         | sections in the WordPress Developer Handbooks), found '__'.
+ 337 | WARNING | A gettext call containing placeholders was found, but was not
+     |         | accompanied by a "translators:" comment on the line above to clarify the
+     |         | meaning of the placeholders.
+ 340 | WARNING | All output should be run through an escaping function (like esc_html_e()
+     |         | or esc_attr_e()), found '_e'.
+ 344 | WARNING | All output should be run through an escaping function (see the Security
+     |         | sections in the WordPress Developer Handbooks), found
+     |         | 'htmlspecialchars'.
+ 344 | ERROR   | The default value of the $encoding parameter for htmlspecialchars() was
+     |         | changed from ISO-8859-1 to UTF-8 in PHP 5.4. For cross-version
+     |         | compatibility, the $encoding parameter should be explicitly set.
+ 346 | WARNING | All output should be run through an escaping function (see the Security
+     |         | sections in the WordPress Developer Handbooks), found '__'.
+ 346 | WARNING | A gettext call containing placeholders was found, but was not
+     |         | accompanied by a "translators:" comment on the line above to clarify the
+     |         | meaning of the placeholders.
+ 346 | WARNING | All output should be run through an escaping function (see the Security
+     |         | sections in the WordPress Developer Handbooks), found
+     |         | 'get_comment_date'.
+ 346 | WARNING | All output should be run through an escaping function (see the Security
+     |         | sections in the WordPress Developer Handbooks), found
+     |         | 'get_comment_time'.
+ 405 | ERROR   | Closures / anonymous functions are not available in PHP 5.2 or earlier
+------------------------------------------------------------------------------------------
+
+
+FILE: ...leBolgTheme/wordpress-5.5.1/wordpress/wp-content/themes/html5blank-stable/header.php
+------------------------------------------------------------------------------------------
+FOUND 3 ERRORS AND 5 WARNINGS AFFECTING 6 LINES
+------------------------------------------------------------------------------------------
+  5 | ERROR   | The title tag must not be used. Use add_theme_support( 'title-tag' )
+    |         | instead.
+  8 | WARNING | All output should be run through an escaping function (see the Security
+    |         | sections in the WordPress Developer Handbooks), found
+    |         | 'get_template_directory_uri'.
+  8 | ERROR   | Code for favicon found. Favicons are handled by the "Site Icon" setting
+    |         | in the customizer since WP version 4.3.
+  9 | WARNING | All output should be run through an escaping function (see the Security
+    |         | sections in the WordPress Developer Handbooks), found
+    |         | 'get_template_directory_uri'.
+  9 | ERROR   | Code for favicon found. Favicons are handled by the "Site Icon" setting
+    |         | in the customizer since WP version 4.3.
+ 20 | WARNING | All output should be run through an escaping function (see the Security
+    |         | sections in the WordPress Developer Handbooks), found
+    |         | 'get_template_directory_uri'.
+ 51 | WARNING | All output should be run through an escaping function (see the Security
+    |         | sections in the WordPress Developer Handbooks), found 'home_url'.
+ 53 | WARNING | All output should be run through an escaping function (see the Security
+    |         | sections in the WordPress Developer Handbooks), found
+    |         | 'get_template_directory_uri'.
+------------------------------------------------------------------------------------------
+
+
+FILE: ...mpleBolgTheme/wordpress-5.5.1/wordpress/wp-content/themes/html5blank-stable/page.php
+------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+------------------------------------------------------------------------------------------
+ 32 | WARNING | All output should be run through an escaping function (like esc_html_e()
+    |         | or esc_attr_e()), found '_e'.
+------------------------------------------------------------------------------------------
+
+
+FILE: ...BolgTheme/wordpress-5.5.1/wordpress/wp-content/themes/html5blank-stable/category.php
+------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+------------------------------------------------------------------------------------------
+ 7 | WARNING | All output should be run through an escaping function (like esc_html_e()
+   |         | or esc_attr_e()), found '_e'.
+------------------------------------------------------------------------------------------
+
+
+FILE: ...-5.5.1/wordpress/wp-content/themes/html5blank-stable/js/lib/imagesloaded.pkgd.min.js
+------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+------------------------------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed. The non-minified file
+   |         | must be included too.
+------------------------------------------------------------------------------------------
+
+
+FILE: ...-5.5.1/wordpress/wp-content/themes/html5blank-stable/js/lib/jquery.flexslider-min.js
+------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+------------------------------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed. The non-minified file
+   |         | must be included too.
+------------------------------------------------------------------------------------------
+
+
+FILE: ...press-5.5.1/wordpress/wp-content/themes/html5blank-stable/js/lib/masonry.pkgd.min.js
+------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+------------------------------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed. The non-minified file
+   |         | must be included too.
+------------------------------------------------------------------------------------------
+
+
+FILE: ...ss-5.5.1/wordpress/wp-content/themes/html5blank-stable/js/lib/modernizr-2.7.1.min.js
+------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+------------------------------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed. The non-minified file
+   |         | must be included too.
+------------------------------------------------------------------------------------------
+
+
+FILE: ...5.5.1/wordpress/wp-content/themes/html5blank-stable/js/lib/conditionizr-4.3.0.min.js
+------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+------------------------------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed. The non-minified file
+   |         | must be included too.
+------------------------------------------------------------------------------------------
+
+
+FILE: ...leBolgTheme/wordpress-5.5.1/wordpress/wp-content/themes/html5blank-stable/single.php
+------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 5 WARNINGS AFFECTING 5 LINES
+------------------------------------------------------------------------------------------
+ 28 | WARNING | All output should be run through an escaping function (like esc_html_e()
+    |         | or esc_attr_e()), found '_e'.
+ 39 | WARNING | All output should be run through an escaping function (see the Security
+    |         | sections in the WordPress Developer Handbooks), found 'get_the_tag_list'.
+ 45 | WARNING | All output should be run through an escaping function (like esc_html_e()
+    |         | or esc_attr_e()), found '_e'.
+ 47 | WARNING | All output should be run through an escaping function (like esc_html_e()
+    |         | or esc_attr_e()), found '_e'.
+ 63 | WARNING | All output should be run through an escaping function (like esc_html_e()
+    |         | or esc_attr_e()), found '_e'.
+------------------------------------------------------------------------------------------
+
+
+FILE: ...eBolgTheme/wordpress-5.5.1/wordpress/wp-content/themes/html5blank-stable/archive.php
+------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+------------------------------------------------------------------------------------------
+ 9 | WARNING | All output should be run through an escaping function (like esc_html_e()
+   |         | or esc_attr_e()), found '_e'.
+------------------------------------------------------------------------------------------
+
+
+FILE: ...leBolgTheme/wordpress-5.5.1/wordpress/wp-content/themes/html5blank-stable/search.php
+------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 3 WARNINGS AFFECTING 1 LINE
+------------------------------------------------------------------------------------------
+ 7 | WARNING | All output should be run through an escaping function (see the Security
+   |         | sections in the WordPress Developer Handbooks), found '__'.
+ 7 | WARNING | A gettext call containing placeholders was found, but was not accompanied
+   |         | by a "translators:" comment on the line above to clarify the meaning of
+   |         | the placeholders.
+ 7 | WARNING | All output should be run through an escaping function (see the Security
+   |         | sections in the WordPress Developer Handbooks), found '$wp_query'.
+------------------------------------------------------------------------------------------
+
+
+FILE: ...leBolgTheme/wordpress-5.5.1/wordpress/wp-content/themes/html5blank-stable/footer.php
+------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 2 WARNINGS AFFECTING 1 LINE
+------------------------------------------------------------------------------------------
+ 15 | WARNING | All output should be run through an escaping function (see the Security
+    |         | sections in the WordPress Developer Handbooks), found 'date'.
+ 15 | WARNING | All output should be run through an escaping function (like esc_html_e()
+    |         | or esc_attr_e()), found '_e'.
+------------------------------------------------------------------------------------------
+
+
+FILE: ...impleBolgTheme/wordpress-5.5.1/wordpress/wp-content/themes/html5blank-stable/404.php
+------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 3 WARNINGS AFFECTING 2 LINES
+------------------------------------------------------------------------------------------
+ 10 | WARNING | All output should be run through an escaping function (like esc_html_e()
+    |         | or esc_attr_e()), found '_e'.
+ 12 | WARNING | All output should be run through an escaping function (see the Security
+    |         | sections in the WordPress Developer Handbooks), found 'home_url'.
+ 12 | WARNING | All output should be run through an escaping function (like esc_html_e()
+    |         | or esc_attr_e()), found '_e'.
+------------------------------------------------------------------------------------------
+
+
+FILE: ...heme/wordpress-5.5.1/wordpress/wp-content/themes/html5blank-stable/template-demo.php
+------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+------------------------------------------------------------------------------------------
+ 32 | WARNING | All output should be run through an escaping function (like esc_html_e()
+    |         | or esc_attr_e()), found '_e'.
+------------------------------------------------------------------------------------------
+
+
+FILE: ...impleBolgTheme/wordpress-5.5.1/wordpress/wp-content/themes/html5blank-stable/tag.php
+------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+------------------------------------------------------------------------------------------
+ 7 | WARNING | All output should be run through an escaping function (like esc_html_e()
+   |         | or esc_attr_e()), found '_e'.
+------------------------------------------------------------------------------------------
+
+
+FILE: ...leBolgTheme/wordpress-5.5.1/wordpress/wp-content/themes/html5blank-stable/author.php
+------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 5 WARNINGS AFFECTING 5 LINES
+------------------------------------------------------------------------------------------
+  9 | WARNING | All output should be run through an escaping function (like esc_html_e()
+    |         | or esc_attr_e()), found '_e'.
+ 15 | WARNING | All output should be run through an escaping function (like esc_html_e()
+    |         | or esc_attr_e()), found '_e'.
+ 17 | WARNING | All output should be run through an escaping function (see the Security
+    |         | sections in the WordPress Developer Handbooks), found 'wpautop'.
+ 42 | WARNING | All output should be run through an escaping function (like esc_html_e()
+    |         | or esc_attr_e()), found '_e'.
+ 62 | WARNING | All output should be run through an escaping function (like esc_html_e()
+    |         | or esc_attr_e()), found '_e'.
+------------------------------------------------------------------------------------------
+
+
+FILE: ...heme/wordpress-5.5.1/wordpress/wp-content/themes/html5blank-stable/normalize.min.css
+------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+------------------------------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed. The non-minified file
+   |         | must be included too.
+------------------------------------------------------------------------------------------
+
+
+FILE: ...BolgTheme/wordpress-5.5.1/wordpress/wp-content/themes/html5blank-stable/comments.php
+------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 2 WARNINGS AFFECTING 2 LINES
+------------------------------------------------------------------------------------------
+  3 | WARNING | All output should be run through an escaping function (like esc_html_e()
+    |         | or esc_attr_e()), found '_e'.
+ 18 | WARNING | All output should be run through an escaping function (like esc_html_e()
+    |         | or esc_attr_e()), found '_e'.
+------------------------------------------------------------------------------------------
+
+
+FILE: ...lgTheme/wordpress-5.5.1/wordpress/wp-content/themes/html5blank-stable/searchform.php
+------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 3 WARNINGS AFFECTING 3 LINES
+------------------------------------------------------------------------------------------
+ 2 | WARNING | All output should be run through an escaping function (see the Security
+   |         | sections in the WordPress Developer Handbooks), found 'home_url'.
+ 3 | WARNING | All output should be run through an escaping function (like esc_html_e()
+   |         | or esc_attr_e()), found '_e'.
+ 4 | WARNING | All output should be run through an escaping function (like esc_html_e()
+   |         | or esc_attr_e()), found '_e'.
+------------------------------------------------------------------------------------------
+
+
+FILE: ...mpleBolgTheme/wordpress-5.5.1/wordpress/wp-content/themes/html5blank-stable/loop.php
+------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 2 WARNINGS AFFECTING 2 LINES
+------------------------------------------------------------------------------------------
+ 26 | WARNING | All output should be run through an escaping function (like esc_html_e()
+    |         | or esc_attr_e()), found '_e'.
+ 42 | WARNING | All output should be run through an escaping function (like esc_html_e()
+    |         | or esc_attr_e()), found '_e'.
+------------------------------------------------------------------------------------------
+
+Time: 339ms; Memory: 16MB
+
